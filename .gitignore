@@ -1,0 +1,67 @@
+# =========================
+# Swift Package Manager
+# =========================
+.build/
+Packages/
+Package.resolved
+DerivedData/
+
+# =========================
+# Xcode
+# =========================
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+*.xcuserstate
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Vapor / Environment
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Database (local dev only)
+# =========================
+db.sqlite
+*.sqlite
+
+# =========================
+# Logs / Server runtime
+# =========================
+Logs/
+*.log
+
+# =========================
+# Swift Concurrency / Profiling
+# =========================
+default.profraw
+
+# =========================
+# SwiftPM internal cache
+# =========================
+.swiftpm/
+
+# =========================
+# Raft Distributed System Runtime Data
+# (Node persistence + crash simulation data)
+# =========================
+RaftNode_*/
+tmp/
+
+# =========================
+# Temporary / system / editor files
+# =========================
+*.swp
+*.lock
+
+# =========================
+# Personal Notes / Local Commands
+# =========================
+Commands
